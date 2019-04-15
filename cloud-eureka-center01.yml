@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: cloud-eureka-center01
+    name: cloud-eureka-center
 eureka:
   instance:
     hostname: cloud-eureka-center01.com
