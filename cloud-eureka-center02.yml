@@ -12,7 +12,7 @@ eureka:
   instance:
     hostname: cloud-eureka-center02.com
   client:
-    # fetch-registry: false
-    # register-with-eureka: false
+    fetch-registry: true
+    register-with-eureka: true
     service-url:
       defaultZone: http://cloud-eureka-center01.com:8081/eureka
