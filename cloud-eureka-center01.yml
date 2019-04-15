@@ -1,6 +1,11 @@
+spring:
+  profiles:
+    active: dev
+---
 server:
   port: 8081
 spring:
+  profiles: dev
   application:
     name: cloud-eureka-center01
 eureka:
