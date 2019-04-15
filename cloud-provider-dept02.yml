@@ -13,4 +13,4 @@ eureka:
     service-url:
       defaultZone: http://cloud-eureka-center01.com:8081/eureka,http://cloud-eureka-center02.com:8082/eureka
 server:
-  port: 7071
+  port: 7072
