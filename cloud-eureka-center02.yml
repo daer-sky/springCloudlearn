@@ -10,7 +10,7 @@ spring:
     name: cloud-eureka-center02
 eureka:
   instance:
-    hostname: cloud-eureka-center01.com
+    hostname: cloud-eureka-center02.com
   client:
     # fetch-registry: false
     # register-with-eureka: false
