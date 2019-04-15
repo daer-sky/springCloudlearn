@@ -1,4 +1,4 @@
-﻿server:
+server:
   port: 8081
 spring:
   application:
@@ -10,4 +10,4 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-      defaultZone: http://cloud-eureka-center01.com,http://cloud-eureka-center02.com
+      defaultZone: http://cloud-eureka-center01.com:8081/eureka
