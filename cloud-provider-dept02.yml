@@ -1,0 +1,16 @@
+﻿spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  application:
+    name: provider-dept
+eureka:
+  instance:
+    hostname: provider-dept02.com
+  client:
+    service-url:
+      defaultZone: http://cloud-eureka-center01.com:8081/eureka,http://cloud-eureka-center02.com:8082/eureka
+server:
+  port: 7071
