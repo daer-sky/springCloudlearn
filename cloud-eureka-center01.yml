@@ -1,0 +1,13 @@
+﻿server:
+  port: 8081
+spring:
+  application:
+    name: cloud-eureka-center01
+eureka:
+  instance:
+    hostname: cloud-eureka-center01.com
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://cloud-eureka-center01.com,http://cloud-eureka-center02.com
